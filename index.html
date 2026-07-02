@@ -4,28 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopta Mascotas - Inicio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     
     <header>
-        <nav>
-            <ul>
-                <li><a href = "index.html">Inicio</a></li>
-                <li><a href = "nosotros.html">Nosotros</a></li>
-                <li><a href = "como-adoptar.html">Como adoptar</a></li>
-                <li><a href = "adopta-gatos.html">Adopta un gato</a></li>
-                <li><a href = "adopta-perros.html">Adopta un perro</a></li>
-                <li><a href = "casos-exito.html">Casos de éxito</a></li>
-                <li><a href = "contacto.html">Contacto</a></li>
-                <li><a href = "donaciones.html">Donaciones</a></li>
-            </ul>
-        </nav>
+        <div class = "header-contenido">
+            <a href = "index.html" class="logo"><img src="img/logo.png" alt="Logo de la organización"></a>
+            <nav>
+                <ul>
+                    <li><a href = "nosotros.html">Nosotros</a></li>
+                    <li><a href = "como-adoptar.html">Como adoptar</a></li>
+                    <li><a href = "adopta-gatos.html">Adopta un gato</a></li>
+                    <li><a href = "adopta-perros.html">Adopta un perro</a></li>
+                    <li><a href = "casos-exito.html">Casos de éxito</a></li>
+                    <li><a href = "contacto.html">Contacto</a></li>
+                    <li><a href = "donaciones.html">Donaciones</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+
+    <section class="hero">
+        <div class="hero-contenido">
+            <h1>Dale un hogar a quien más lo necesita </h1>
+            <p>Encuentra a tu compañero perfecto y cambia dos vidas: <br>la suya y la tuya.</p>
+            
+            <a href="adopta-perros.html" class="btn">Ver mascotas disponibles</a>
+        </div>
+    </section>
 
     
     <main>
-        <h1>Bienvenido a nuestra página de adopción de mascotas</h1>
+        
         <section>
             <h2>Sobre nosotros</h2>
             <p>En nuestra organización, nos dedicamos a encontrar hogares amorosos para gatos y perros que necesitan una segunda oportunidad. 
@@ -38,16 +51,27 @@
         <section>
             <h2>Mascotas destacadas</h2>
             <div class="tarjetas">
+
                 <article>
-                    <img src="img/Luna.jpg" alt="Gato Luna">
-                    <h3>Gato: Luna</h3>
-                    <p>Luna es una gata juguetona y cariñosa que busca un hogar donde pueda recibir mucho amor y atención.</p>      
+                    <img src="img/Luna.jpg" alt="Foto de Luna, gata disponible para adopción">
+                    <span class="etiqueta">Gato</span>
+                    <div class="tarjeta-contenido">
+                        <h3>Gato: Luna</h3>
+                        <p>Luna es una gata juguetona y cariñosa que busca un hogar donde pueda recibir mucho amor y atención.</p>      
+                        <a href="adopta-gatos.html" class="btn">Conocer más</a>
+                    </div>
                 </article>
+
                 <article>
-                    <img src="img/Max.jpg" alt="Perro Max">
-                    <h3>Perro: Max</h3>
-                    <p>Max es un perro enérgico y leal que necesita un dueño activo que disfrute de largas caminatas y juegos al aire libre.</p>
+                    <img src="img/Max.jpg" alt="Foto de Max, perro disponible para adopción">
+                    <span class="etiqueta">Perro</span>
+                    <div class="tarjeta-contenido">
+                        <h3>Perro: Max</h3>
+                        <p>Max es un perro enérgico y leal que necesita un dueño activo que disfrute de largas caminatas y juegos al aire libre.</p>
+                        <a href="adopta-perros.html" class="btn">Conocer más</a>
+                    </div>
                 </article>
+
             </div>               
         </section>
     </main>

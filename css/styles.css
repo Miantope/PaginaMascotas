@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #11110a;
     background-color:#f1efe0;
     line-height: 1.6;
@@ -15,7 +15,7 @@ nav ul{
     display: flex;
     list-style: none;
     justify-content: flex-start;
-    gap: 60px;
+    gap: 20px;
 }
 
 nav a{
@@ -24,12 +24,94 @@ nav a{
     font-weight: bold;
     padding: 10px 15px;
     transition: background-color 0.3s ease, color 0.3s ease;
+    white-space: nowrap;
 }
 
+
 header {
-    background-color: #ebd998c9; /* o el color que prefieras, que contraste con el beige del body */
-    padding: 15px 40px;
+    background-color: #ebd998c9; 
+    padding: 0px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
+.header-contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 70px; 
+    padding: 8px 0;  
+}
+
+/* Estilos del hero section */
+.hero {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.hero-contenido {
+    position: relative;
+    z-index: 1;
+    padding: 0 40px;
+    max-width: 700px;
+    color: #ffffff;
+}
+
+.hero-contenido h1 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.hero-contenido p {
+    font-size: 1.1rem;
+    margin-bottom: 32px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #d4541a;
+    color: #ffffff;
+    padding: 14px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #b8430f;
+    transform: translateY(-2px);
+}
+
+/* Estilos del logo*/
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4b290d;
+    text-decoration: none;
+}
+.logo img {
+    height: 55px;   
+    width: auto;    
+    display: block; 
+}
+
 
 h1 {
     font-size: 2.5rem;
@@ -60,11 +142,12 @@ main{
 }
 
 article{
-    background-color: #abc05d3f;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 0;
     border-radius: 15px;
-    box-shadow:2px 6px 15px -4px #000000;
+    box-shadow:0px 4px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    overflow: hidden;
 }
 
 section{
@@ -79,7 +162,8 @@ footer{
     color: #4b290d;
 }
 
-img {
+
+article img{
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
@@ -88,11 +172,42 @@ img {
 
 
 article:hover{
-    transform: scale(1.05);
+    transform: translateY(-6px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
+
 nav a:hover{
     background-color: #c49976;
     color: #000000;
     border-radius: 7px;
 }
 
+.tarjeta-contenido{
+    padding: 20px;
+}
+
+.tarjeta-contenido h3{
+    margin-bottom: 8px;
+}
+
+.tarjeta-contenido p{
+    margin-bottom: 16px;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+article{
+    position: relative;
+}
+
+.etiqueta{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #d4541a;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
