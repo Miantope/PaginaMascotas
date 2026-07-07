@@ -7,24 +7,32 @@
     <title>Adopta Mascotas - Inicio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/menu.js" defer></script>
 </head>
 <body>
     
     <header>
-        <div class = "header-contenido">
-            <a href = "index.html" class="logo"><img src="img/logo.png" alt="Logo de la organización"></a>
-            <nav>
+        <div class="header-contenido">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Logo de la organización">
+            </a>
+            <button class="hamburguesa" id="hamburguesa">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="menu-nav">
                 <ul>
-                    <li><a href = "nosotros.html">Nosotros</a></li>
-                    <li><a href = "como-adoptar.html">Como adoptar</a></li>
-                    <li><a href = "adopta-gatos.html">Adopta un gato</a></li>
-                    <li><a href = "adopta-perros.html">Adopta un perro</a></li>
-                    <li><a href = "casos-exito.html">Casos de éxito</a></li>
-                    <li><a href = "contacto.html">Contacto</a></li>
-                    <li><a href = "donaciones.html">Donaciones</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="como-adoptar.html">Como adoptar</a></li>
+                    <li><a href="adopta-gatos.html">Adopta un gato</a></li>
+                    <li><a href="adopta-perros.html">Adopta un perro</a></li>
+                    <li><a href="casos-exito.html">Casos de éxito</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
                 </ul>
             </nav>
-        </div>
+            </div>
     </header>
 
 
@@ -49,16 +57,32 @@
             <h2>Adopta un gato o un perro</h2>
             <p>Si estás interesado en adoptar, visita nuestras secciones de "Adopta un gato" o "Adopta un perro" para ver los animales disponibles y conocer el proceso de adopción.</p>
         </section>
-
-
         <section>
             <h2>Mascotas destacadas</h2>
             <div class="tarjetas">
-                Una sección con 3 opciones de donación (por ejemplo tarjetas con montos sugeridos: $50, $100, $200) usando el sistema de tarjetas que ya tienes.
-                
+
+                <article>
+                    <img src="img/Luna.jpg" alt="Foto de Luna, gata disponible para adopción">
+                    <span class="etiqueta">Gato</span>
+                    <div class="tarjeta-contenido">
+                        <h3>Gato: Luna</h3>
+                        <p>Luna es una gata juguetona y cariñosa que busca un hogar donde pueda recibir mucho amor y atención.</p>      
+                        <a href="adopta-gatos.html" class="btn">Conocer más</a>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="img/Max.jpg" alt="Foto de Max, perro disponible para adopción">
+                    <span class="etiqueta">Perro</span>
+                    <div class="tarjeta-contenido">
+                        <h3>Perro: Max</h3>
+                        <p>Max es un perro enérgico y leal que necesita un dueño activo que disfrute de largas caminatas y juegos al aire libre.</p>
+                        <a href="adopta-perros.html" class="btn">Conocer más</a>
+                    </div>
+                </article>
+
             </div>               
         </section>
-
     </main>
 
 
