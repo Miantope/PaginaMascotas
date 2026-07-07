@@ -1,6 +1,6 @@
 const checkboxes = document.querySelectorAll('.filtro-grupo input[type="checkbox"]');
 
-const tarjetas = document.querySelectorAll('#lista-gatos article');
+const tarjetas = document.querySelectorAll('#lista-perros article');
 
 function filtrar() {
 

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Adopta Mascotas - Perros en Adopción</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Página relacionada con la adopción de perros. -->
+     <header>
+        <div class = "header-contenido">
+            <a href = "index.html" class="logo"><img src="img/logo.png" alt="Logo de la organización"></a>
+            <nav>
+                <ul>
+                    <li><a href = "nosotros.html">Nosotros</a></li>
+                    <li><a href = "como-adoptar.html">Como adoptar</a></li>
+                    <li><a href = "adopta-gatos.html">Adopta un gato</a></li>
+                    <li><a href = "adopta-perros.html">Adopta un perro</a></li>
+                    <li><a href = "casos-exito.html">Casos de éxito</a></li>
+                    <li><a href = "contacto.html">Contacto</a></li>
+                    <li><a href = "donaciones.html">Donaciones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+
+        <div class="catalogo">
+
+            <aside class="sidebar">
+
+                <h2>Filtros</h2>
+                <div class="filtro-grupo">
+                    <h3>Edad</h3>
+                    <label><input type="checkbox" data-categoria="edad" value="cachorro"> Cachorro</label>
+                    <label><input type="checkbox" data-categoria="edad" value="joven"> Joven</label>
+                    <label><input type="checkbox" data-categoria="edad" value="adulto"> Adulto</label>
+                    <label><input type="checkbox" data-categoria="edad" value="senior"> Senior</label>
+                </div>
+                <div class="filtro-grupo">
+                    <h3>Género</h3>
+                    <label><input type="checkbox" data-categoria="genero" value="macho"> Macho</label>
+                    <label><input type="checkbox" data-categoria="genero" value="hembra"> Hembra</label>
+                </div>
+
+                <div class="filtro-grupo">
+                    <h3>Personalidad</h3>
+                    <label><input type="checkbox" data-categoria="personalidad" value="jugueton"> Juguetón</label>
+                    <label><input type="checkbox" data-categoria="personalidad" value="tranquilo"> Tranquilo</label>
+                    <label><input type="checkbox" data-categoria="personalidad" value="carinoso"> Cariñoso</label>
+                    <label><input type="checkbox" data-categoria="personalidad" value="independiente"> Independiente</label>
+                </div>
+
+            </aside>
+
+            <section>
+                <h1>Perros en adopción</h1>
+                <div class="tarjetas" id="lista-perros">
+
+                    <article data-edad="cachorro" data-genero="macho" data-personalidad="jugueton">
+                        <span class="etiqueta">Disponible</span>
+                        <img src="img/Max.jpg" alt="Foto de Max, perro disponible para adopción">
+                        <div class="tarjeta-contenido">
+                            <h3>Max</h3>
+                            <p>Max es un cachorro juguetón y lleno de energía que busca un hogar donde pueda recibir mucho amor y atención.</p>
+                            <a href="adopta-perros.html" class="btn">Conocer más</a>
+                        </div>
+                    </article>
+
+                    <article data-edad="adulto" data-genero="macho" data-personalidad="tranquilo">
+                        <span class="etiqueta">Disponible</span>
+                        <img src="img/Rocky.jpg" alt="Foto de Rocky, perro disponible para adopción">
+                        <div class="tarjeta-contenido">
+                            <h3>Rocky</h3>
+                            <p>Rocky es un perro adulto tranquilo y cariñoso que busca un hogar donde pueda disfrutar de la compañía humana.</p>
+                            <a href="adopta-perros.html" class="btn">Conocer más</a>
+                        </div>
+                    </article>
+
+                    <article data-edad="senior" data-genero="hembra" data-personalidad="carinoso">
+                        <span class="etiqueta">Disponible</span>
+                        <img src="img/Bella.jpg" alt="Foto de Bella, perro disponible para adopción">
+                        <div class="tarjeta-contenido">
+                            <h3>Bella</h3>
+                            <p>Bella es una perra senior cariñosa y tranquila que busca un hogar donde pueda pasar sus años dorados rodeada de amor.</p>
+                            <a href="adopta-perros.html" class="btn">Conocer más</a>
+                        </div>
+                    </article>
+
+                    
+                </div>   
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-contenido">
+
+            <div class="footer-columnas">
+                <h3>Organización de Adopción de Mascotas</h3>
+                <p>Encontramos hogares amorosos para quienes más lo necesitan.</p>
+            </div>
+
+            <div class="footer-columnas">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="como-adoptar.html">Como adoptar</a></li>
+                    <li><a href="adopta-gatos.html">Adopta un gato</a></li>
+                    <li><a href="adopta-perros.html">Adopta un perro</a></li>
+                    <li><a href="casos-exito.html">Casos de éxito</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columnas">
+                <h3>Contacto</h3>
+                <p>Email: info@adopcionmascotas.org</p>
+                <p>Teléfono: +34 123 456 789</p>
+                <p>Dirección: Calle de la Adopción, 123, Ciudad, País</p>
+            </div>
+
+            <div class="footer-columnas">
+                <h3>Síguenos</h3>
+                <ul class="redes-sociales">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>  
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Organización de Adopción de Mascotas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/filtros-perros.js"></script>
+</body>
+</html>
