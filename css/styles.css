@@ -29,7 +29,7 @@ nav a{
 
 
 header {
-    background-color: #ebd998c9; 
+    background-color: #e8d483; 
     padding: 0px 40px;
     position: sticky;
     top: 0;
@@ -130,7 +130,7 @@ h3{
 
 }
 main{
-    padding: 40px;
+    padding-top: 40px;
     max-width: 1200px;
     margin:0 auto;
 }
@@ -346,4 +346,63 @@ footer h3 {
     font-weight: 700;
     font-size: 0.9rem;
     margin-bottom: 12px;
+}
+
+
+/*Estilos para el formulario de contacto*/
+
+.contacto-intro {
+    margin-bottom: 32px;
+}
+
+.formulario {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    max-width: 700px;
+    margin: 0 auto 60px; 
+}
+
+.campo {
+    margin-bottom: 24px;
+}
+
+.campo label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #2c1a0e;
+    font-size: 0.95rem;
+}
+
+.campo input, .campo textarea, .campo select {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #e0d9cc;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+    color: #11110a;
+    background-color: #fafaf8;
+    transition: border-color 0.3s ease;
+}
+
+.campo input:focus, .campo textarea:focus, .campo select:focus {
+    outline: none;
+    border-color: #d4541a;
+}
+
+.campo textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+
+/* Estilos para la sección de donaciones */
+.tarjetas-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+.texto-sugerencia {
+    margin-bottom: 32px;
 }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Adopta Mascotas - Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Página relacionada con el contacto -->
+     <header>
+        <div class = "header-contenido">
+            <a href = "index.html" class="logo"><img src="img/logo.png" alt="Logo de la organización"></a>
+            <nav>
+                <ul>
+                    <li><a href = "nosotros.html">Nosotros</a></li>
+                    <li><a href = "como-adoptar.html">Como adoptar</a></li>
+                    <li><a href = "adopta-gatos.html">Adopta un gato</a></li>
+                    <li><a href = "adopta-perros.html">Adopta un perro</a></li>
+                    <li><a href = "casos-exito.html">Casos de éxito</a></li>
+                    <li><a href = "contacto.html">Contacto</a></li>
+                    <li><a href = "donaciones.html">Donaciones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <sectio>
+            <h1>Contacto</h1>
+            <p class="contacto-intro">Si tienes alguna pregunta o deseas más información sobre la adopción de mascotas, no dudes en contactarnos. Puedes enviarnos un mensaje a través del siguiente formulario o utilizar los datos de contacto proporcionados.</p>
+        </sectio>
+        
+        <form class="formulario">
+           
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+
+            <div class="campo">
+                <label for="asunto">Asunto:</label>
+                <select id="asunto" name="asunto" required>
+                    <option value="">Selecciona un asunto</option>
+                    <option value="adopcion">Consulta sobre adopción</option>
+                    <option value="donacion">Consulta sobre donación</option>
+                    <option value="voluntariado">Consulta sobre voluntariado</option>
+                    <option value="otros">Otros</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </main>
+
+ 
+    <footer>
+        <div class="footer-contenido">
+
+            <div class="footer-columnas">
+                <h3>Organización de Adopción de Mascotas</h3>
+                <p>Encontramos hogares amorosos para quienes más lo necesitan.</p>
+            </div>
+
+            <div class="footer-columnas">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="como-adoptar.html">Como adoptar</a></li>
+                    <li><a href="adopta-gatos.html">Adopta un gato</a></li>
+                    <li><a href="adopta-perros.html">Adopta un perro</a></li>
+                    <li><a href="casos-exito.html">Casos de éxito</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columnas">
+                <h3>Contacto</h3>
+                <p>Email: info@adopcionmascotas.org</p>
+                <p>Teléfono: +34 123 456 789</p>
+                <p>Dirección: Calle de la Adopción, 123, Ciudad, País</p>
+            </div>
+
+            <div class="footer-columnas">
+                <h3>Síguenos</h3>
+                <ul class="redes-sociales">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>  
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Organización de Adopción de Mascotas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
