@@ -43,8 +43,10 @@
             <p class="contacto-intro">Si tienes alguna pregunta o deseas más información sobre la adopción de mascotas, no dudes en contactarnos. Puedes enviarnos un mensaje a través del siguiente formulario o utilizar los datos de contacto proporcionados.</p>
         </sectio>
         
-        <form class="formulario">
-           
+        <form action="https://formspree.io/f/mykqajwd" method="POST" class="formulario">
+            <input type="hidden" name="_subject" value="Nuevo mensaje desde PaginaMascotas">
+            <input type="hidden" name="_next" value="https://miantope.github.io/PaginaMascotas/contacto.html">
+
             <div class="campo">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>

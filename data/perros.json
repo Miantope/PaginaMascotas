@@ -1,0 +1,52 @@
+[
+    {
+        "id" : 1,
+        "nombre": "Max",
+        "edad": "cachorro",
+        "genero": "macho",
+        "personalidad": "jugueton",
+        "descripcion": "Max es un perrito juguetón y cariñoso que busca un hogar donde pueda recibir mucho amor y atención.",
+        "imagen": "img/Max.jpg",
+        "alt": "Foto de Max, perrito disponible para adopción"
+    },
+    {
+        "id" : 2,
+        "nombre": "Rocky",
+        "edad": "cachorro",
+        "genero": "macho",
+        "personalidad": "jugueton",
+        "descripcion": "Rocky es un perrito juguetón y cariñoso que busca un hogar donde pueda recibir mucho amor y atención.",
+        "imagen": "img/Rocky.jpg",
+        "alt": "Foto de Rocky, perrito disponible para adopción"
+    },
+    {
+        "id" : 3,
+        "nombre": "Bella",
+        "edad": "adulto",
+        "genero": "hembra",
+        "personalidad": "carinoso",
+        "descripcion": "Bella es una perrita cariñosa y leal que busca un hogar donde pueda recibir mucho amor y atención.",
+        "imagen": "img/Bella.jpg",
+        "alt": "Foto de Bella, perrita disponible para adopción"
+    },
+    {
+        "id" : 4,
+        "nombre": "Pambazo",
+        "edad": "adulto",
+        "genero": "macho",
+        "personalidad": "carinoso",
+        "descripcion": "Pambazo es una perrita cariñosa y leal que busca un hogar donde pueda recibir mucho amor y atención.",
+        "imagen": "img/Pambazo.jpg",
+        "alt": "Foto de Pambazo, perrito disponible para adopción"
+    },
+    {
+        "id" : 5,
+        "nombre": "Maria",
+        "edad": "senior",
+        "genero": "hembra",
+        "personalidad": "tranquilo",
+        "descripcion": "Maria es una perrita tranquila y cariñosa que busca un hogar donde pueda recibir mucho amor y atención.",
+        "imagen": "img/Maria.jpg",
+        "alt": "Foto de Maria, perrita disponible para adopción"
+    }
+]

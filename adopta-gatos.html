@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/menu.js" defer></script>
-    <script src="js/filtros.js" defer></script>
+    <script src="js/cargar-gatos.js" defer></script>
 </head>
 <body>
     <!-- Página relacionada con la adopción de gatos. -->
@@ -71,46 +71,9 @@
 
                 <h1>Gatos en adopción</h1>
                 <div class="tarjetas" id="lista-gatos">
-
-                    <article data-edad="cachorro" data-genero="hembra" data-personalidad="jugueton">
-                        <span class="etiqueta">Disponible</span>
-                        <img src="img/Luna.jpg" alt="Foto de Luna, gata disponible para adopción">
-                        <div class="tarjeta-contenido">
-                            <h3>Luna</h3>
-                            <p>Luna es una gata juguetona y cariñosa que busca un hogar donde pueda recibir mucho amor y atención.</p>      
-                            <a href="adopta-gatos.html" class="btn">Conocer más</a>
-                        </div>
-                    </article>
-
-                    <article data-edad="joven" data-genero="hembra" data-personalidad="carinoso">
-                        <span class="etiqueta">Disponible</span>
-                        <img src="img/chispita.jpg" alt="Foto de Chispita, gata disponible para adopción">
-                        <div class="tarjeta-contenido">
-                            <h3>Chispita</h3>
-                            <p>Chispita es una gata cariñosa y amorosa en busca de un hogar.</p>      
-                            <a href="adopta-gatos.html" class="btn">Conocer más</a>
-                        </div>
-                    </article>
-
-                    <article data-edad="joven" data-genero="hembra" data-personalidad="carinoso">
-                        <span class="etiqueta">Disponible</span>
-                        <img src="img/manguita.jpg" alt="Foto de Manguita, gata disponible para adopción">
-                        <div class="tarjeta-contenido">
-                            <h3>Manguita</h3>
-                            <p>Manguita es una gata cariñosa y amorosa en busca de un hogar.</p>      
-                            <a href="adopta-gatos.html" class="btn">Conocer más</a>
-                        </div>
-                    </article>
+                
+                    <!-- Gatos cargados del archivo JSON -->
                     
-                    <article data-edad="senior" data-genero="macho" data-personalidad="Amoroso">
-                        <span class="etiqueta">Disponible</span>
-                        <img src="img/guero.jpg" alt="Foto de Guero, gata disponible para adopción">
-                        <div class="tarjeta-contenido"> 
-                            <h3>Guero</h3>
-                            <p>Guero es un gato amoroso y cariñoso en busca de un hogar.</p>      
-                            <a href="adopta-gatos.html" class="btn">Conocer más</a>
-                        </div>
-                    </article>
                 </div>
             </section>
 

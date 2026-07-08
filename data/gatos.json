@@ -1,0 +1,52 @@
+[
+    {
+        "id" : 1,
+        "nombre": "Luna",
+        "edad": "cachorro",
+        "genero": "hembra",
+        "personalidad": "jugueton",
+        "descripcion": "Luna es una gata juguetona y cariñosa que busca un hogar donde pueda recibir mucho amor y atención.",
+        "imagen": "img/Luna.jpg",
+        "alt": "Foto de Luna, gata disponible para adopción"
+    },
+    {
+        "id": 2,
+        "nombre": "Chispita",
+        "edad": "joven",
+        "genero": "hembra",
+        "personalidad": "carinoso",
+        "descripcion": "Chispita es una gata cariñosa y amorosa en busca de un hogar.",
+        "imagen": "img/chispita.jpg",
+        "alt": "Foto de Chispita, gata disponible para adopción"
+    },
+    {
+        "id": 3,
+        "nombre": "Manguita",
+        "edad": "joven",
+        "genero": "hembra",
+        "personalidad": "carinoso",
+        "descripcion": "Manguita es una gata cariñosa y amorosa en busca de un hogar.",
+        "imagen": "img/manguita.jpg",
+        "alt": "Foto de Manguita, gata disponible para adopción"
+    },
+    {
+        "id": 4,
+        "nombre": "Guero",
+        "edad": "senior",
+        "genero": "macho",
+        "personalidad": "carinoso",
+        "descripcion": "Guero es un gato amoroso y cariñoso en busca de un hogar.",
+        "imagen": "img/guero.jpg",
+        "alt": "Foto de Guero, gato disponible para adopción"
+    },
+    {
+        "id": 5,
+        "nombre": "Flow",
+        "edad": "senior",
+        "genero": "macho",
+        "personalidad": "jugueton",
+        "descripcion": "Flow es un gato juguetón y en busca de un hogar.",
+        "imagen": "img/flow.jpg",
+        "alt": "Foto de Flow, gato disponible para adopción"
+    }
+]
