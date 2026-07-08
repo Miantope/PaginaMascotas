@@ -14,7 +14,7 @@ como parte de mi portafolio de desarrollo web.
 - JavaScript
 
 ##  Estructura del proyecto 📂
-- Inicio con hero section
+- Inicio 
 - Nosotros
 - Cómo adoptar
 - Catálogo de gatos con filtros
